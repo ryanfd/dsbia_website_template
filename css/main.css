@@ -46,7 +46,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 1.5s;
     animation-duration: 0.5s;
 }
 .remain .r3 {
@@ -54,7 +54,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 4.3s;
+    animation-delay: 1.8s;
     animation-duration: 0.5s;
 }
 .remain .r4 {
@@ -62,7 +62,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 4.6s;
+    animation-delay: 2.1s;
     animation-duration: 0.5s;
 }
 .remain .r5 {
@@ -70,7 +70,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 4.9s;
+    animation-delay: 2.4s;
     animation-duration: 0.5s;
 }
 .remain .r6 {
@@ -78,7 +78,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 5.2s;
+    animation-delay: 2.7s;
     animation-duration: 0.5s;
 }
 .remain .r7 {
@@ -86,7 +86,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 5.5s;
+    animation-delay: 3s;
     animation-duration: 0.5s;
 }
 .remain .r8 {
@@ -94,7 +94,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 5.8s;
+    animation-delay: 3.3s;
     animation-duration: 0.5s;
 }
 
@@ -103,7 +103,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 6.1s;
+    animation-delay: 3.6s;
     animation-duration: 0.5s;
 }
 .remain .r10 {
@@ -111,7 +111,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 6.4s;
+    animation-delay: 3.9s;
     animation-duration: 0.5s;
 }
 
@@ -124,7 +124,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 6.7s;
+    animation-delay: 2.4s;
     animation-duration: 0.5s;
 }
 .remain2 .r3 {
@@ -132,7 +132,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 2.7s;
     animation-duration: 0.5s;
 }
 .remain2 .r4 {
@@ -140,7 +140,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 7.3s;
+    animation-delay: 3s;
     animation-duration: 0.5s;
 }
 .remain2 .r5 {
@@ -148,7 +148,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 7.6s;
+    animation-delay: 3.3s;
     animation-duration: 0.5s;
 }
 .remain2 .r6 {
@@ -156,7 +156,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 7.9s;
+    animation-delay: 3.6s;
     animation-duration: 0.5s;
 }
 .remain2 .r7 {
@@ -164,7 +164,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 8.2s;
+    animation-delay: 3.9s;
     animation-duration: 0.5s;
 }
 .remain2 .r8 {
@@ -172,7 +172,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 8.5s;
+    animation-delay: 4.2s;
     animation-duration: 0.5s;
 }
 
@@ -181,7 +181,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 8.8s;
+    animation-delay: 4.5s;
     animation-duration: 0.5s;
 }
 .remain2 .r10 {
@@ -189,7 +189,7 @@ html, body {
     display: inline-block;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 9.1s;
+    animation-delay: 4.8s;
     animation-duration: 0.5s;
 }
 
@@ -202,7 +202,7 @@ html, body {
     opacity: 0;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
     animation-duration: 3s;
 }
 
@@ -211,7 +211,7 @@ html, body {
     margin-left: 2rem;
     animation: fadeIn;  
     animation-fill-mode: forwards; 
-    animation-delay: 2s;
+    animation-delay: 0.5s;
     animation-duration: 3s;
 }
 
@@ -231,7 +231,7 @@ html, body {
     top: 80%;
     animation: buttonFade;  
     animation-fill-mode: forwards; 
-    animation-delay: 8s;
+    animation-delay: 3.3s;
     animation-duration: 1s;
 }
 
