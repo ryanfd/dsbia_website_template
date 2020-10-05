@@ -796,6 +796,22 @@ footer .left, footer .right {
     transform: translate(-50%, -50%);
 }
 
+.col1-of-2 a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col1-of-2 a img {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    width: 40px;
+    height: 40px;
+}
+
 
 /* overrides */
 .no-top {
