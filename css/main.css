@@ -308,7 +308,8 @@ nav .right-divide .nav-item a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 900;
+    font-family: helvetica, arial;
+    font-weight: 800;
     letter-spacing: 0.1rem;
     text-decoration: none;
     color: #090C0C;
