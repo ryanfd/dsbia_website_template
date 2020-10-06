@@ -39,7 +39,7 @@ html, body {
 }
 
 .landing-page .headline h1 {
-    color: rgba(10,10,10, 1);
+    color: #090C0C;
     line-height: 4.5rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -257,7 +257,7 @@ a.order-button {
 }
 
 a.order-button:hover {
-    background: #5875A7;
+    background: #204369;
 }
 
 img.arrow {
@@ -311,13 +311,13 @@ nav .right-divide .nav-item a {
     font-weight: 900;
     letter-spacing: 0.1rem;
     text-decoration: none;
-    color: rgba(10,10,10,1);
+    color: #090C0C;
     transition: 0.25s;
     font-size: 1.3rem;
 }
 
 nav .right-divide .nav-item a:hover {
-    color: #5875A7;
+    color: #204369;
 }
 
 .featured {
@@ -458,7 +458,7 @@ nav .right-divide .nav-item a:hover {
 .menu-section .col-right p {
     line-height: 2rem;
     font-size: 0.9rem;
-    color: rgba(10,10,10,1);
+    color: #090C0C;
 }
 
 .menu-section .col-right a.order-button {
@@ -492,7 +492,7 @@ nav .right-divide .nav-item a:hover {
 .order-section .col-left p {
     line-height: 2rem;
     font-size: 0.9rem;
-    color: rgba(10,10,10,1);
+    color: #090C0C;
 }
 
 .order-section .col-left a.order-button {
@@ -518,7 +518,7 @@ nav .right-divide .nav-item a:hover {
 
 .menu header img {
     position: absolute;
-    height: 50%;
+    height: 100%;
     width: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -561,7 +561,7 @@ nav .right-divide .nav-item a:hover {
     border-left: none;
     border-right: none;
     border-width: thin;
-    border-color: #5875A7;
+    border-color: #204369;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
