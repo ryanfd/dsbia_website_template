@@ -28,6 +28,11 @@ html, body {
     background-image: url("../img/burger_filler.png");
 }
 
+.landing-page .headline img.logo {
+    max-height: 300px;
+    width: auto;
+}
+
 .landing-page .headline h1 {
     color: rgba(10,10,10, 1);
     line-height: 4.5rem;
