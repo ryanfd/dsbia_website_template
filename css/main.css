@@ -29,8 +29,13 @@ html, body {
 }
 
 .landing-page .headline img.logo {
+    opacity: 0;
     max-height: 300px;
     width: auto;
+    animation-name: fadeIn; 
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
 }
 
 .landing-page .headline h1 {
@@ -236,13 +241,13 @@ html, body {
     top: 80%;
     animation: buttonFade;  
     animation-fill-mode: forwards; 
-    animation-delay: 3.3s;
-    animation-duration: 1s;
+    animation-delay: 1.8s;
+    animation-duration: 0.5s;
 }
 
 a.order-button {
     padding: 20px 40px;
-    background-color: #A78A58;
+    background-color: #69462B;
     text-decoration: none;
     color: white;
     /* border-style: solid; */
@@ -268,7 +273,7 @@ img.arrow {
     opacity: 0;
     animation: arrowFade;  
     animation-fill-mode: forwards; 
-    animation-delay: 3s;
+    animation-delay: 2.4s;
     animation-duration: 0.5s;
 }
 
@@ -349,7 +354,7 @@ nav .right-divide .nav-item a:hover {
 .featured .col-right {
     top: 0;
     right: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
@@ -406,7 +411,7 @@ nav .right-divide .nav-item a:hover {
 .featured-flip .col-right {
     top: 0;
     left: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 35% 0%, 50% 100%, 0% 100%);
     clip-path: polygon(0 0, 35% 0%, 50% 100%, 0% 100%); 
@@ -533,7 +538,7 @@ nav .right-divide .nav-item a:hover {
     padding: 4rem 2rem;
     border-style: solid;
     border-width: thick;
-    border-color: #A78A58;
+    border-color: #69462B;
     padding-bottom: 0;
     margin-bottom: 4rem;
 }
@@ -584,7 +589,7 @@ nav .right-divide .nav-item a:hover {
 .sect-divide .left-divide {
     left: 0;
     top: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     -webkit-clip-path: polygon(0 0, 90% 0%, 85% 100%, 0% 100%);
     clip-path: polygon(0 0, 90% 0%, 85% 100%, 0% 100%); 
 }
@@ -592,7 +597,7 @@ nav .right-divide .nav-item a:hover {
 .sect-divide .right-divide {
     right: 0;
     top: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 5% 100%);
     clip-path: polygon(10% 0, 100% 0%, 100% 100%, 5% 100%); 
 }
@@ -638,7 +643,7 @@ nav .right-divide .nav-item a:hover {
 .about-cont .col-right {
     top: 0;
     left: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 82.5% 0%, 67.5% 100%, 0% 100%);
     clip-path: polygon(0 0, 92.5% 0%, 67.5% 100%, 0% 100%); 
@@ -700,7 +705,7 @@ nav .right-divide .nav-item a:hover {
 .contact-cont .col-left {
     top: 0;
     left: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%);
     clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%); 
@@ -709,7 +714,7 @@ nav .right-divide .nav-item a:hover {
 .contact-cont .col-right {
     top: 0;
     right: 0;
-    background-color: #A78A58;
+    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 80% 100%);
@@ -765,7 +770,7 @@ nav .right-divide .nav-item a:hover {
 footer {
     height: 80px;
     width: 100%;
-    background-color: #B39A6F;
+    background-color: #69462B;
 }
 
 footer .left, footer .right {
