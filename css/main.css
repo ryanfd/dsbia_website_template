@@ -17,7 +17,7 @@ html, body {
 }
 
 .landing-page {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #EAEAEA;
     background-attachment: scroll;
     position: relative;
     background-attachment: fixed;
@@ -288,6 +288,9 @@ nav {
     position: -webkit-sticky;
     top: 0;
     z-index: 9999;
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: #69462B;
 }
 
 nav img {
@@ -308,17 +311,19 @@ nav .right-divide .nav-item a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-family: helvetica, arial;
-    font-weight: 800;
+    font-family: "nova-extrabold", helvetica, Arial, sans-serif;
     letter-spacing: 0.1rem;
     text-decoration: none;
     color: #090C0C;
     transition: 0.25s;
     font-size: 1.3rem;
+    border-style: solid none;
+    border-color: white;
 }
 
 nav .right-divide .nav-item a:hover {
-    color: #204369;
+    border-bottom-color: #204369;
+    color: #69462B;
 }
 
 .featured {
@@ -346,7 +351,7 @@ nav .right-divide .nav-item a:hover {
 .featured .col-left {
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: white;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%);
     clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%); 
@@ -403,7 +408,7 @@ nav .right-divide .nav-item a:hover {
 .featured-flip .col-left {
     top: 0;
     right: 0;
-    background-color: red;
+    background-color: white;
     height: 100%;
     -webkit-clip-path: polygon(100% 0, 100% 0%, 100% 100%, 50% 100%);
     clip-path: polygon(5% 0, 100% 0%, 100% 100%, 20% 100%);
@@ -635,7 +640,7 @@ nav .right-divide .nav-item a:hover {
 .about-cont .col-left {
     top: 0;
     right: 0;
-    background-color: red;
+    background-color: white;
     height: 100%;
     -webkit-clip-path: polygon(55% 0, 100% 0%, 100% 100%, 40% 100%);
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 40% 100%);

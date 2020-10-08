@@ -2,3 +2,13 @@
     font-family: "nova";
     src: url(../fonts/ProximaNovaRegular.otf);
 }
+
+@font-face {
+    font-family: "nova-extrabold";
+    src: url(../fonts/ProximaNovaExtrabold.otf);
+}
+
+@font-face {
+    font-family: "nova-light";
+    src: url(../fonts/ProximaNovaLight.otf);
+}
