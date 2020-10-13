@@ -442,7 +442,8 @@ nav .right-divide .nav-item a:hover {
 
 .menu-section {
     position: relative;
-    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: #69462B;
 }
 
 .menu-section .col-left img {
@@ -512,6 +513,7 @@ nav .right-divide .nav-item a:hover {
     position: relative;
     width: 100%;
     margin-bottom: 4rem;
+    background-color: #EAEAEA;
 }
 
 .menu header {
@@ -540,24 +542,105 @@ nav .right-divide .nav-item a:hover {
 }
 
 .menu .menu-section {
-    margin: 0 4rem;
-    padding: 4rem 2rem;
-    border-style: solid;
+    margin: 0 0rem;
+    padding: 4rem 4rem;
+    padding-top: 2rem;
+    /* border-style: solid;
     border-width: thick;
-    border-color: #69462B;
-    padding-bottom: 0;
-    margin-bottom: 4rem;
+    border-color: #69462B; */
+    padding-bottom: 4rem;
+    /* margin-bottom: 4rem; */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menu h2.menu-header {
+.menu-section h2.menu-header {
     font-weight: 200;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
+    background-color: #69462B;
+    padding: 2rem 0;
+    font-family: "ballantines";
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.menu-section.white h2.menu-header {
+    color: #090C0C;
+    background-color: white;
+}
+
+.menu-section h3.desc {
+    position: relative;
+    color: white;
+    font-family: "nova-light";
+    font-size: 1.0rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0.05rem;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.menu-section.white h3.desc {
+    color: #090C0C;
+}
+
+.menu-section h4 {
+    color: white;
+    font-family: "nova-light";
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    width: 100%;
+    padding-top: 1rem;
+    border-top: solid;
+    margin-top: 1rem;
+}
+
+.menu-section.white h4 {
+    color: #090c0c;
+}
+
+.menu-section ul li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 0;
+    font-size: 0.9rem;
 }
 
 .menu .menu-item {
     width: 100%;
     padding-bottom: 4rem;
     padding-top: 1rem;
+}
+
+.connector {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #69462B;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 9;
+}
+
+.white .connector {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 9;
 }
 
 .pricing {
@@ -844,6 +927,10 @@ footer .left, footer .right {
 
 .top {
     margin-top: 6rem;
+}
+
+.white {
+    background-color: white;
 }
 
 

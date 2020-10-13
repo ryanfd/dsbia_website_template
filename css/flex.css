@@ -99,3 +99,18 @@ footer .right {
 .col1-of-2  {
     flex-basis: 50%;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+li {
+    flex-basis: 40%;
+}
+
+ul.full-width li {
+    flex-basis: 100%;
+}

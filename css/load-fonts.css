@@ -12,3 +12,8 @@
     font-family: "nova-light";
     src: url(../fonts/ProximaNovaLight.otf);
 }
+
+@font-face {
+    font-family: "ballantines";
+    src: url(../fonts/Ballantines-Regular.ttf);
+}
