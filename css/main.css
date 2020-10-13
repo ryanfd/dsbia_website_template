@@ -443,7 +443,6 @@ nav .right-divide .nav-item a:hover {
 .menu-section {
     position: relative;
     padding: 2rem 0;
-    background-color: #69462B;
 }
 
 .menu-section .col-left img {
@@ -512,7 +511,7 @@ nav .right-divide .nav-item a:hover {
 .menu {
     position: relative;
     width: 100%;
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     background-color: #EAEAEA;
 }
 
@@ -553,12 +552,17 @@ nav .right-divide .nav-item a:hover {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #69462B;
+}
+
+.menu .menu-section.white {
+    background-color: white;
 }
 
 .menu-section h2.menu-header {
     font-weight: 200;
     /* padding-left: 4rem; */
-    background-color: #69462B;
+    /* background-color: #69462B; */
     padding: 2rem 0;
     font-family: "ballantines";
     color: white;
@@ -569,7 +573,7 @@ nav .right-divide .nav-item a:hover {
 
 .menu-section.white h2.menu-header {
     color: #090C0C;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .menu-section h3.desc {
@@ -589,7 +593,7 @@ nav .right-divide .nav-item a:hover {
 
 .menu-section h4 {
     color: white;
-    font-family: "nova-light";
+    font-family: "nova-extrabold";
     text-transform: uppercase;
     font-size: 1.25rem;
     letter-spacing: 0.05rem;
@@ -597,6 +601,7 @@ nav .right-divide .nav-item a:hover {
     padding-top: 1rem;
     border-top: solid;
     margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .menu-section.white h4 {
@@ -606,9 +611,31 @@ nav .right-divide .nav-item a:hover {
 .menu-section ul li {
     color: white;
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 1rem 0;
     font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+.menu-section.white ul li {
+    color: #090c0c;
+}
+
+.menu .menu-section ul li:before {
+    content:        "";
+    border-color:   transparent white;
+    border-style:   solid;
+    border-width:   0.25em 0 0.25em 0.45em;
+    display:        block;
+    height:         0;
+    left:           -1em;
+    position:       relative;
+    top:            0.9em;
+    width:          0;
+}
+
+.menu .menu-section.white ul li:before {
+    border-color:   transparent #090C0C;
 }
 
 .menu .menu-item {
