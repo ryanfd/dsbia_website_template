@@ -960,6 +960,10 @@ footer .left, footer .right {
     background-color: white;
 }
 
+.menu-section.white ul li.blue {
+    color: #204369;
+}
+
 
 @keyframes fadeIn { 
     from { 
