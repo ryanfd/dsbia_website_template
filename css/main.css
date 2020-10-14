@@ -279,9 +279,19 @@ img.arrow {
 
 #data {
     position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
+    background-color: #EAEAEA;
+}
+
+.wrap {
+    position: relative;
+    max-width: 1500px;
     background-color: white;
+    margin: 4rem auto;
+    padding-bottom: 0;
+}
+
+.inner-wrap {
+    padding: 2rem;
 }
 
 nav {
@@ -335,6 +345,7 @@ nav .right-divide .nav-item a:hover {
     width: 100%;
     height: auto;
     height: 420px;
+    margin-top: 0;
 }
 
 .featured .col-left, .featured .col-right {
@@ -917,7 +928,8 @@ nav .right-divide .nav-item a:hover {
     width: 100%;
     height: auto;
     height: 420px;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .contact-cont .col-left, .contact-cont .col-right {
