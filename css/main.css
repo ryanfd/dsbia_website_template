@@ -865,7 +865,7 @@ nav .right-divide .nav-item a:hover {
     margin: 4rem 0;
     position: relative;
     width: 100%;
-    height: 550px;
+    height: 400px;
 }
 
 .about-cont .col-left, .about-cont .col-right {
@@ -900,18 +900,25 @@ nav .right-divide .nav-item a:hover {
     transform: translate(-50%, -50%);
 }
 
-.about-cont .col-right h2 {
-    position: absolute;
-    top: 12.5%;
-    left: 5%;
-    color: white;
+#owner {
+    max-height: 150%;
+    left: 80%;
 }
 
-.about-cont .col-right p {
+.about-cont .col-right .about-wrap {
     position: absolute;
     left: 5%;
     right: 30%;
-    top: 25%;
+    top: 12.5%;
+}
+
+.about-cont .col-right .about-wrap h2 {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.about-cont .col-right .about-wrap p {
+    margin-bottom: 1.5rem;
     color: white;
     line-height: 1.5rem;
     font-size: 0.9rem;
