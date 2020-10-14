@@ -990,6 +990,7 @@ nav .right-divide .nav-item a:hover {
     position: relative;
     float: right;
     letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
 }
 
 .contact-cont .contact-item h3 {
@@ -1094,6 +1095,10 @@ footer .left, footer .right {
 }
 
 .top {
+    margin-top: 4rem;
+}
+
+.pad {
     margin-top: 4rem;
 }
 
