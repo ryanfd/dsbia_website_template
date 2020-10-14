@@ -279,6 +279,9 @@ img.arrow {
 
 #data {
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 nav {
@@ -338,6 +341,7 @@ nav .right-divide .nav-item a:hover {
     width: 75%;
     position: absolute;
     height: 100%;
+    background-color: #69462B;
 }
 
 .featured .col-left img, .featured .col-right img {
@@ -360,7 +364,6 @@ nav .right-divide .nav-item a:hover {
 .featured .col-right {
     top: 0;
     right: 0;
-    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
@@ -417,7 +420,7 @@ nav .right-divide .nav-item a:hover {
 .featured-flip .col-right {
     top: 0;
     left: 0;
-    background-color: #C6B69A;
+    background-color: #69462B;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 35% 0%, 50% 100%, 0% 100%);
     clip-path: polygon(0 0, 35% 0%, 50% 100%, 0% 100%); 
@@ -858,6 +861,7 @@ nav .right-divide .nav-item a:hover {
     width: 75%;
     position: absolute;
     height: 100%;
+    background-color: #69462B;
 }
 
 .about-cont .col-left {
@@ -872,7 +876,6 @@ nav .right-divide .nav-item a:hover {
 .about-cont .col-right {
     top: 0;
     left: 0;
-    background-color: #C6B69A;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 82.5% 0%, 67.5% 100%, 0% 100%);
     clip-path: polygon(0 0, 92.5% 0%, 67.5% 100%, 0% 100%); 
@@ -914,6 +917,7 @@ nav .right-divide .nav-item a:hover {
     width: 100%;
     height: auto;
     height: 420px;
+    margin-bottom: 4rem;
 }
 
 .contact-cont .col-left, .contact-cont .col-right {
@@ -934,7 +938,7 @@ nav .right-divide .nav-item a:hover {
 .contact-cont .col-left {
     top: 0;
     left: 0;
-    background-color: #C6B69A;
+    background-color: #69462B;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%);
     clip-path: polygon(0 0, 95% 0%, 80% 100%, 0% 100%); 
@@ -943,7 +947,7 @@ nav .right-divide .nav-item a:hover {
 .contact-cont .col-right {
     top: 0;
     right: 0;
-    background-color: #C6B69A;
+    background-color: #69462B;
     height: 100%;
     -webkit-clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 80% 100%);
@@ -1075,6 +1079,10 @@ footer .left, footer .right {
 
 .menu-section.white ul li.blue {
     color: #204369;
+}
+
+.top {
+    margin-top: 4rem;
 }
 
 
