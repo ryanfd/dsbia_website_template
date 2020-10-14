@@ -513,6 +513,13 @@ nav .right-divide .nav-item a:hover {
     width: 100%;
     padding-bottom: 4rem;
     background-color: #EAEAEA;
+    background-image: url("../img/sandwich-img.jpg");
+    background-attachment: scroll;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu header {
