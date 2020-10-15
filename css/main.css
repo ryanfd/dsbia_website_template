@@ -356,9 +356,9 @@ nav .right-divide .nav-item a:hover {
 }
 
 .featured .col-left img, .featured .col-right img {
-    max-height: 400%;
+    max-height: 200%;
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -380,18 +380,21 @@ nav .right-divide .nav-item a:hover {
     clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
 }
 
-.featured .col-right h2 {
+.featured .content-wrap {
     position: absolute;
     top: 12.5%;
-    right: 9.5%;
+    left: 67%;
+    right: 5%;
+}
+
+.featured .col-right h2 {
+    position: relative;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .featured .col-right p {
-    position: absolute;
-    left: 68%;
-    right: 5%;
-    top: 25%;
+    position: relative;
     color: white;
     line-height: 1.5rem;
     font-size: 0.9rem;
@@ -412,9 +415,9 @@ nav .right-divide .nav-item a:hover {
 }
 
 .featured-flip .col-left img, .featured-flip .col-right img {
-    max-height: 400%;
+    max-height: 200%;
     position: absolute;
-    left: 40%;
+    left: 60%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -437,18 +440,21 @@ nav .right-divide .nav-item a:hover {
     clip-path: polygon(0 0, 35% 0%, 50% 100%, 0% 100%); 
 }
 
-.featured-flip .col-right h2 {
+.featured-flip .content-wrap {
     position: absolute;
     top: 12.5%;
     left: 5%;
+    right: 67%;
+}
+
+.featured-flip .col-right h2 {
+    position: relative;
     color: white;
+    margin-bottom: 1rem;
 }
 
 .featured-flip .col-right p {
-    position: absolute;
-    right: 68%;
-    left: 5%;
-    top: 25%;
+    position: relative;
     color: white;
     line-height: 1.5rem;
     font-size: 0.9rem;
@@ -749,16 +755,16 @@ nav .right-divide .nav-item a:hover {
 }
 
 .menu .menu-section ul li:before {
-    content:        "";
-    border-color:   transparent white;
-    border-style:   solid;
-    border-width:   0.25em 0 0.25em 0.45em;
-    display:        block;
-    height:         0;
-    left:           -1em;
-    position:       relative;
-    top:            0.9em;
-    width:          0;
+    content: "";
+    border-color: transparent white;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.45em;
+    display: block;
+    height: 0;
+    left: -1em;
+    position: relative;
+    top: 0.9em;
+    width: 0;
 }
 
 .menu .menu-section.white ul li:before {
