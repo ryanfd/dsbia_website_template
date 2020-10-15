@@ -17,3 +17,8 @@
     font-family: "ballantines";
     src: url(../fonts/Ballantines-Regular.ttf);
 }
+
+@font-face {
+    font-family: "ballantines-light";
+    src: url(../fonts/ballantines-serial-light-regular.ttf);
+}

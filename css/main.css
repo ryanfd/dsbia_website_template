@@ -228,7 +228,7 @@ html, body {
 .headline {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
@@ -391,6 +391,8 @@ nav .right-divide .nav-item a:hover {
     position: relative;
     color: white;
     margin-bottom: 1rem;
+    font-family: "ballantines-light", "nova";
+    font-size: 2.5rem;
 }
 
 .featured .col-right p {
@@ -451,6 +453,8 @@ nav .right-divide .nav-item a:hover {
     position: relative;
     color: white;
     margin-bottom: 1rem;
+    font-family: "ballantines-light", "nova";
+    font-size: 2.5rem;
 }
 
 .featured-flip .col-right p {
