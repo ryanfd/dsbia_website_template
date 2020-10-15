@@ -1,0 +1,9 @@
+@media (max-width: 56.25em) {
+    nav .left-divide {
+        flex-basis: 30%;
+    }
+
+    nav .right-divide {
+        flex-basis: 70%;
+    }
+}

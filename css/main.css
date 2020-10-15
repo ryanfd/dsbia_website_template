@@ -1050,15 +1050,17 @@ footer .left, footer .right {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .col1-of-4 h2 {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
+    font-family: "ballantines", "nova";
+    transform: translate(-50%, -50%);
 }
 
 .col1-of-4 p {
     font-size: 0.7rem;
+    transform: translate(-50%, 0);
 }
 
 .col1-of-2 p {
@@ -1066,7 +1068,7 @@ footer .left, footer .right {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
 }
 
 .col1-of-2 a {
