@@ -21,11 +21,11 @@ html, body {
     background-attachment: scroll;
     position: relative;
     background-attachment: fixed;
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 100%;
-    background-image: url("../img/burger_filler.png");
+    background-image: url("../img/croissant-cover.jpg");
 }
 
 .landing-page .headline img.logo {
