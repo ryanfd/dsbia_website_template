@@ -216,19 +216,105 @@
     }
 }
 
+@media (max-width: 46.3125em) {
+    .headline {
+        left: 50%;
+    }
+
+    .landing-page .headline img.logo {
+        max-width: 250px;
+    }
+}
+
 @media (max-width: 45.1875em) {
     .featured-flip .col-right {
         width: 85%;
-        -webkit-clip-path: polygon(0 0, 65% 0%, 80% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 70% 0%, 82.5% 100%, 0% 100%);
         clip-path: polygon(0 0, 70% 0%, 82.5% 100%, 0% 100%);
     }
 
     .featured-flip .col-left {
-        -webkit-clip-path: polygon(35% 0, 100% 0%, 100% 100%, 50% 100%);
+        -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 64.5% 100%);
         clip-path: polygon(50% 0, 100% 0%, 100% 100%, 64.5% 100%);
     }
 
     .featured-flip .col-left img {
         left: 95%;
+    }
+}
+
+@media (max-width: 40.3125em) {
+    .featured .col-right {
+        position: relative;
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .featured .col-left {
+        position: relative;
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        height: 200px;
+    }
+
+    .featured .content-wrap {
+        position: relative;
+        left: auto;
+        height: auto;
+        right: auto;
+        padding: 3rem;
+    }
+
+    .featured {
+        height: auto;
+    }
+
+    .featured .col-left img {
+        max-width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    .featured-flip .col-right {
+        position: relative;
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .featured-flip .col-left {
+        position: relative;
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        height: 200px;
+    }
+
+    .featured-flip .content-wrap {
+        position: relative;
+        left: auto;
+        height: auto;
+        right: auto;
+        padding: 3rem;
+    }
+
+    .featured-flip {
+        height: auto;
+    }
+
+    .featured-flip .col-left img {
+        max-width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        transform: translate(0, -20%);
+    }
+
+    .inner-wrap {
+        padding: 0;
     }
 }
