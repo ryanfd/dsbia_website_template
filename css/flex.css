@@ -79,21 +79,21 @@ footer {
 }
 
 footer .left {
-    flex-basis: 80%;
+    flex-basis: 85%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
 }
 
 footer .right {
-    flex-basis: 20%;
+    flex-basis: 15%;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
 }
 
 .col1-of-4 {
-    flex-basis: 25.833333%;
+    flex-basis: 25%;
 }
 
 .col1-of-2  {
@@ -113,8 +113,4 @@ li {
 
 ul.full-width li {
     flex-basis: 100%;
-}
-
-.small-divide {
-    flex-basis: 22.5%;
 }
