@@ -30,7 +30,7 @@ html, body {
 
 .landing-page .headline img.logo {
     opacity: 0;
-    max-height: 300px;
+    max-height: 400px;
     width: auto;
     animation-name: fadeIn; 
     animation-fill-mode: forwards;
@@ -923,12 +923,14 @@ nav .right-divide .nav-item a:hover {
 }
 
 .about-cont .col-right .about-wrap h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: white;
+    font-family: "ballantines-light", "nova";
+    font-size: 2.5rem;
 }
 
 .about-cont .col-right .about-wrap p {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     color: white;
     line-height: 1.5rem;
     font-size: 0.9rem;
@@ -987,6 +989,8 @@ nav .right-divide .nav-item a:hover {
     color: white;
     padding-right: 4rem;
     padding-top: 3rem;
+    font-family: "ballantines-light", "nova";
+    font-size: 2.5rem;
 }
 
 .contact-cont .col-right p {
