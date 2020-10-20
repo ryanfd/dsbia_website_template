@@ -20,6 +20,69 @@
     }
 }
 
+@media (max-width: 80em) {
+    .contact-cont .col-left, .contact-cont .col-right {
+        position: relative;
+        -webkit-clip-path: polygon(65% 0, 100% 0%, 100% 100%, 50% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+        padding: 0;
+    }
+
+    .contact-cont .col-left img, .contact-cont .col-right img {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        transform: translate(0, 0);
+    }
+
+    .contact-cont .contact-item {
+        text-align: left;
+        margin: 0;
+        height: auto;
+    }
+
+    .contact-cont .col-left {
+        height: auto;
+        border: none;
+        background-color: rgba(0,0,0,0);
+    }
+
+    .contact-cont .col-right h2 {
+        float: left;
+        flex-basis: 100%;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .contact-cont .col-right {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 100%;
+        margin-top: -5px;
+    }
+
+    .contact-cont .col-right .contact-item {
+        flex-basis: 25%;
+        padding-left: 1rem;
+    }
+
+    .contact-cont .col-right .contact-item.top {
+        padding-left: 0;
+    }
+
+    .contact-cont {
+        height: auto;
+    }
+}
+
 @media (max-width: 78.9375em) {
     .menu-section .col-left img {
         width: 110%;
@@ -88,6 +151,18 @@
 
     #owner {
         left: 100%;
+    }
+}
+
+@media (max-width: 65.75em) {
+    .contact-cont .col-right .contact-item {
+        padding-left: 0;
+        flex-basis: 50%;
+        padding-right: 1rem;
+    }
+
+    .contact-cont .col-right .contact-item.top, .contact-cont .col-right .contact-item.pad {
+        margin-bottom: 1rem;
     }
 }
 
@@ -409,5 +484,21 @@
 
     .inner-wrap {
         padding: 0;
+    }
+
+    .contact-cont .col-right .contact-item.top, .contact-cont .col-right .contact-item.pad {
+        margin: 0.5rem 0;
+    }
+
+    .contact-cont .col-right .contact-item {
+        flex-basis: 100%;
+        padding-right: 0;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .contact-cont .col-right h2 {
+        text-align: center;
+        padding-right: 0;
     }
 }
