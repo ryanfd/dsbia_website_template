@@ -387,6 +387,12 @@
 @media (max-width: 46.3125em) {
     .headline {
         left: 50%;
+        top: 35%;
+    }
+
+    .order-now {
+        top: 30%;
+        /* transform: translateX(0); */
     }
 
     .landing-page .headline img.logo {
@@ -500,5 +506,48 @@
     .contact-cont .col-right h2 {
         text-align: center;
         padding-right: 0;
+    }
+}
+@media (max-width: 34.375em) {
+    .order-section .col-left {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    .order-section .col-left a.order-button {
+        position: relative;
+        transform: translateY(0);
+        transform: translateX(-50%);
+        left: 20%;
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+
+    .order-section .col-left p {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 25em) {
+    .menu-section .col-right a.order-button {
+        position: relative;
+        left: 22.5%;
+        transform: translateX(0%);
+        transform: translateY(0);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-section .col-right {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 23.5em) {
+    a.order-button {
+        padding: 1rem 1.5rem;
+        font-size: 0.8rem;
     }
 }
