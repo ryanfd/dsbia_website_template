@@ -20,6 +20,20 @@
     }
 }
 
+@media (max-width: 82.6875em) {
+    .col1-of-4 h2 {
+        font-size: 1.75rem;
+    }
+
+    .col1-of-4 {
+        flex-basis: 28.333%;
+    }
+
+    .col1-of-4.title {
+        flex-basis: 15%;
+    }
+}
+
 @media (max-width: 80em) {
     .contact-cont .col-left, .contact-cont .col-right {
         position: relative;
@@ -163,6 +177,11 @@
 
     .contact-cont .col-right .contact-item.top, .contact-cont .col-right .contact-item.pad {
         margin-bottom: 1rem;
+    }
+
+    .col1-of-2 a {
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -375,6 +394,31 @@
 
     .featured .content-wrap {
         left: 32.5%;
+    }
+
+    footer {
+        height: 250px;
+        position: relative;
+    }
+
+    footer .left {
+        flex-basis: 100%;
+        height: 200px;
+    }
+
+    footer .right {
+        flex-basis: 100%;
+        height: 50px;
+    }
+
+    .col1-of-4 {
+        flex-basis: 100%;
+        height: 50px;
+    }
+
+    .col1-of-4.title {
+        flex-basis: 100%;
+        height: 50px;
     }
 }
 
