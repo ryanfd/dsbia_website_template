@@ -409,7 +409,7 @@
     .connector {
         border-left: 40px solid transparent;
         border-right: 40px solid transparent;
-        border-top: 30px solid white;
+        border-top: 30px solid #69462B;
     }
 }
 
@@ -524,7 +524,7 @@
     .connector {
         border-left: 35px solid transparent;
         border-right: 35px solid transparent;
-        border-top: 30px solid white;
+        border-top: 30px solid #69462B;
     }
 }
 
@@ -667,7 +667,7 @@
     .connector {
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-top: 25px solid white;
+        border-top: 25px solid #69462B;
     }
 }
 
@@ -681,7 +681,7 @@
     .connector {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
-        border-top: 20px solid white;
+        border-top: 20px solid #69462B;
     }
 }
 
@@ -739,7 +739,7 @@
     .connector {
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
-        border-top: 20px solid white;
+        border-top: 20px solid #69462B;
     }
 }
 
