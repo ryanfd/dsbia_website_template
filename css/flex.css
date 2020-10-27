@@ -26,6 +26,30 @@ nav {
     flex-basis: 100%;
 }
 
+.burger-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.burger-nav .fill-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.burger-nav .fill-menu .nav-button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.burger-nav .fill-menu .nav-button a {
+    flex-basis: 100%;
+}
+
 nav .left-divide {
     flex-basis: 50%;
 }

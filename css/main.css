@@ -256,7 +256,7 @@ a.order-button {
     transition: 0.25s;
 }
 
-a.order-button:hover {
+a.order-button:hover, a.order-button:active {
     background: #204369;
 }
 
@@ -334,7 +334,7 @@ nav .right-divide .nav-item a {
     border-color: white;
 }
 
-nav .right-divide .nav-item a:hover {
+nav .right-divide .nav-item a:hover, nav .right-divide .nav-item a:active {
     border-bottom-color: #204369;
     color: #69462B;
 }
@@ -1088,6 +1088,42 @@ footer .left, footer .right {
     transform: translate(-50%, -50%); */
     width: 100%;;
     height: 100%;
+}
+
+.burger-nav {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(40,40,40, 0.3);
+}
+
+.burger-nav .fill-menu {
+    position: relative;
+    background-color: white;
+}
+
+.burger-nav .fill-menu .nav-button {
+    background-color: white;
+    position: relative;
+}
+
+.burger-nav .fill-menu .nav-button a {
+    text-decoration: none;
+    color: #090C0C;
+    font-family: "nova-extrabold", helvetica, Arial, sans-serif;
+    letter-spacing: 0.1rem;
+    transition: 0.25s;
+    font-size: 1.3rem;
+    position: relative;
+    width: 100%;
+    height: 62.5%;
+    padding: 1rem;
+    padding-top: 1.25rem;
+}
+
+.burger-nav .fill-menu .nav-button a:hover, .burger-nav .fill-menu .nav-button a:active {
+    color: #204369;
+    background-color: rgba(200,200,200, 0.3);
 }
 
 
