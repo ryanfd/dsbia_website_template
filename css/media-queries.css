@@ -595,6 +595,18 @@
         padding-right: 0;
     }
 }
+
+@media (max-width: 36.625em) {
+    .menu header img {
+        height: 80%;
+    }
+
+    .menu header {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 34.375em) {
     .order-section .col-left {
         height: auto;
