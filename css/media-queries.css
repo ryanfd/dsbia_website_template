@@ -360,6 +360,20 @@
     }
 }
 
+@media (max-width: 52.625em) {
+    .white .connector {
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 40px solid white;
+    }
+
+    .connector {
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 40px solid #69462B;
+    }
+}
+
 @media (max-width: 48.6875em) {
     .about-cont .col-left, .about-cont .col-right {
         display: block;
@@ -378,6 +392,19 @@
     #owner {
         bottom: 10%;
         position: relative;
+    }
+}
+
+@media (max-width: 48.25em) {
+    .menu .menu-section.img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 49.375em) {
+    .menu-section ul li {
+        margin-right: 1.5rem;
+        flex-basis: 40%;
     }
 }
 
@@ -427,6 +454,14 @@
 
     .spacing {
         flex-basis: 35%;
+    }
+}
+
+@media (max-width: 47.5em) {
+    .menu .menu-section {
+        padding: 4rem 3rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
     }
 }
 
@@ -582,6 +617,23 @@
     }
 }
 
+@media (max-width: 33.5em) {
+    .menu .menu-section.img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 30.9375em) {
+    .menu-section ul li {
+        margin-right: 0;
+        flex-basis: 100%;
+    }
+
+    .menu-section ul li {
+        line-height: 1.2rem;
+    }
+}
+
 @media (max-width: 26.5625em) {
     .about-cont .col-right .about-wrap {
         padding: 2rem;
@@ -611,9 +663,31 @@
     }
 }
 
+@media (max-width: 24.25em) {
+    .menu .menu-section.img {
+        height: 125px;
+    }
+}
+
 @media (max-width: 23.5em) {
     a.order-button {
         padding: 1rem 1.5rem;
         font-size: 0.8rem;
+    }
+
+    .menu .menu-section {
+        padding: 4rem 2rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .menu-section h2.menu-header {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 20em) {
+    .menu .menu-section.img {
+        height: 100px;
     }
 }
