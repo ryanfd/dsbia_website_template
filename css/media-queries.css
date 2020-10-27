@@ -399,6 +399,18 @@
     .menu .menu-section.img {
         height: 200px;
     }
+
+    .white .connector {
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 30px solid white;
+    }
+
+    .connector {
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 30px solid white;
+    }
 }
 
 @media (max-width: 49.375em) {
@@ -501,6 +513,18 @@
 
     .featured-flip .col-left img {
         left: 95%;
+    }
+    
+    .white .connector {
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 30px solid white;
+    }
+
+    .connector {
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 30px solid white;
     }
 }
 
@@ -633,6 +657,32 @@
     .menu .menu-section.img {
         height: 150px;
     }
+
+    .white .connector {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 25px solid white;
+    }
+
+    .connector {
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 25px solid white;
+    }
+}
+
+@media (max-width: 32.375em) {
+    .white .connector {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 20px solid white;
+    }
+
+    .connector {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 20px solid white;
+    }
 }
 
 @media (max-width: 30.9375em) {
@@ -678,6 +728,18 @@
 @media (max-width: 24.25em) {
     .menu .menu-section.img {
         height: 125px;
+    }
+
+    .white .connector {
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid white;
+    }
+
+    .connector {
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid white;
     }
 }
 
