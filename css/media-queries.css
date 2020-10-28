@@ -420,6 +420,16 @@
     }
 }
 
+@media (max-width: 48em) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
 @media (max-width: 47.9375em) {
     .featured .col-right {
         -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 5% 100%);
