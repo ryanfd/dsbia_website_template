@@ -142,3 +142,7 @@ li {
 ul.full-width li {
     flex-basis: 100%;
 }
+
+.sidebarMenuInner li {
+    flex-basis: 100%;
+}

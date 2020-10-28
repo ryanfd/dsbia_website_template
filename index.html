@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/flex.css">
     <link rel="stylesheet" href="css/media-queries.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 
     <meta name="description" content="Local cafe in the heart of Surrey. Serves coffee, specialty drinks and fresh, homeade sandwiches, panninis and deserts." />
     <meta name="keywords" content="coffee shop, coffee shops, cafe, coffee, smoothie, breakfast, lunch, sandwich, latte, coffee near me, coffee shops near me, cafe near me, coffe bar, coffee nearby, breakfast near me, brunch near me, lunch near me, espresso near me, local coffee, surrey, cafe surrey, good coffee, study, study cafe, study cafe near me, espresso, mocha, cappucino, roast, coffee bean, black coffee, caffeine, coffee cups" />
@@ -37,21 +38,27 @@
       <div class="options right-divide">
         <div class="nav-item"><a href="#data">home</a></div>
         <div class="nav-item"><a href="menu.html">menu</a></div>
-        <div class="nav-item"><a href="https://www.skipthedishes.com/cafe-nelly?utm_source=google&utm_medium=organic&utm_campaign=gpa">order</a></div>
+        <div class="nav-item"><a href="https://www.skipthedishes.com/cafe-nelly?utm_source=google&utm_medium=organic&utm_campaign=gpa" target="_blank">order</a></div>
         <div class="nav-item"><a href="#about">about</a></div>
         <div class="nav-item"><a href="#contact">contact</a></div>
       </div>
     </nav>
 
-    <div class="burger-nav">
-      <div class="fill-menu">
-        <div class="nav-button"><a href="#">X</a></div>
-        <div class="nav-button"><a href="#">home</a></div>
-        <div class="nav-button"><a href="#">menu</a></div>
-        <div class="nav-button"><a href="#">order</a></div>
-        <div class="nav-button"><a href="#">about</a></div>
-        <div class="nav-button"><a href="#">contact</a></div>
-      </div>
+    <div class="header"><h1>Cafe Nelly</h1></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <div class="spinner diagonal part-1"></div>
+      <div class="spinner horizontal"></div>
+      <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+          <li><a class="mobile" href="#data">home<span>the homepage</span></a></li>
+          <li><a class="mobile" href="menu.html">menu<span>the food and drink</span></a></li>
+          <li><a class="mobile" href="https://www.skipthedishes.com/cafe-nelly?utm_source=google&utm_medium=organic&utm_campaign=gpa" target="_blank">order<span>pickup and delivery</span></a></li>
+          <li><a class="mobile" href="#about">about<span>get to know us</span></a></li>
+          <li><a class="mobile" href="#contact">contact<span>get in touch</span></a></li>
+      </ul>
     </div>
 
     <div id="data">

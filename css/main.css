@@ -1090,41 +1090,183 @@ footer .left, footer .right {
     height: 100%;
 }
 
-.burger-nav {
+.header {
+    display: block;
+    margin: 0 auto;
     width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #69462B;
+    position: fixed;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.mainInner{
+    display: table;
     height: 100%;
-    position: absolute;
-    background-color: rgba(40,40,40, 0.3);
-}
-
-.burger-nav .fill-menu {
-    position: relative;
-    background-color: white;
-}
-
-.burger-nav .fill-menu .nav-button {
-    background-color: white;
-    position: relative;
-}
-
-.burger-nav .fill-menu .nav-button a {
-    text-decoration: none;
-    color: #090C0C;
-    font-family: "nova-extrabold", helvetica, Arial, sans-serif;
-    letter-spacing: 0.1rem;
-    transition: 0.25s;
-    font-size: 1.3rem;
-    position: relative;
     width: 100%;
-    height: 62.5%;
-    padding: 1rem;
-    padding-top: 1.25rem;
+    text-align: center;
 }
 
-.burger-nav .fill-menu .nav-button a:hover, .burger-nav .fill-menu .nav-button a:active {
-    color: #204369;
-    background-color: rgba(200,200,200, 0.3);
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
 }
+
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: rgba(255, 255, 255, 1);
+    z-index:10;
+}
+
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    z-index: 99999;
+}
+
+.sidebarMenuInner li {
+    list-style: none;
+    color: #69462B;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    z-index: 99999;
+}
+
+.sidebarMenuInner li span {
+    display: block;
+    font-size: 14px;
+    color: rgba(105, 70, 43, 0.50);
+    z-index: 99999;
+}
+
+.sidebarMenuInner li a {
+    color: #69462B;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 99999;
+    width: 100%;
+    font-family: "nova-extrabold";
+    letter-spacing: 0.05rem;
+    font-size: 1.3rem;
+}
+
+
+.sidebarMenuInner li a:active, .sidebarMenuInner li a:active > span {
+    color: #204369;
+}
+
+.sidebarMenuInner li:hover, .sidebarMenuInner li:active {
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+.header h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 60%;
+    height: 90%; */
+    text-align:center;
+    display:table;
+    width:100%;
+    margin-top:0.9rem;
+    color: #fff;
+    font-size: 3rem;
+    font-family: "ballantines-light", Helvetica, Arial, sans-serif;
+    transform: translateY(-25%);
+  }
 
 
 /* overrides */
