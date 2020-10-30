@@ -350,7 +350,7 @@
     }
 
     .order-section .col-left a.order-button {
-        bottom: 0;
+        bottom: 0%;
     }
 
     .menu-section .col-right p {
@@ -652,11 +652,14 @@
     .order-section .col-left a.order-button {
         position: relative;
         transform: translateY(0);
-        transform: translateX(-50%);
-        left: 30%;
         top: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        position: relative;
+        display: block;
+        margin: 0 22.5%;
+        transform: translateX(0);
+        left: auto;
+        right: auto;
+        text-align: center;
         margin-bottom: 2rem;
     }
 
@@ -725,11 +728,11 @@
 @media (max-width: 25em) {
     .menu-section .col-right a.order-button {
         position: relative;
-        left: 22.5%;
-        transform: translateX(0%);
+        left: auto;
         transform: translateY(0);
-        margin-left: auto;
-        margin-right: auto;
+        display: block;
+        text-align: center;
+        margin: 0 25%;
     }
     .menu-section .col-right {
         height: auto;
