@@ -1351,7 +1351,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-family: "nova-extrabold", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     text-decoration: none;
-    color: #204369;
+    color: #090C0C;
     transition: 0.25s;
     -webkit-transition: 0.25s;
     border-bottom-style: solid;
