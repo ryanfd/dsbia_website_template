@@ -1327,7 +1327,35 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-family: "ballantines-light", Helvetica, Arial, sans-serif;
     transform: translateY(-25%);
     -webkit-transform: translateY(-25%);
-  }
+}
+
+.menu-types {
+    position: fixed;
+    top: 10%;
+    z-index: 999;
+    /* width: 100%; */
+    right: 2.5%;
+}
+
+.menu-types a {
+    float: right;
+    margin: 1.5rem;
+    font-family: "nova-extrabold", Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #204369;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0);
+}
+
+.menu-types a:hover, .menu-types a:active {
+    border-bottom-color: rgba(0,0,0,1);
+    border-bottom-color: #204369;
+    border-bottom-style: solid;
+    
+}
 
 
 /* overrides */
