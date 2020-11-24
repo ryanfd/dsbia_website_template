@@ -1,10 +1,11 @@
-* {
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     font-family: "nova", Helvetica, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    position: relative;
 }
 
 html, body {
@@ -1364,8 +1365,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-bottom-style: solid;
 }
 
+.menu-types a {
+    display: inline-block;
+    animation-duration: 0.75s;
+    animation-name: wave;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-play-state: paused;
+}
+
 .menu-types a#regular {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
+    -webkit-animation-play-state: running;
 }
 
 .menu .menu-section#layer1 {
@@ -1435,3 +1447,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         bottom: 5%;
     }
 }
+
+@keyframes wave {
+    from { transform: translateY(0.125); }
+    to { transform: translateY(-0.125em); }
+  }

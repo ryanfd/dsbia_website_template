@@ -14,9 +14,9 @@ $(window).on('scroll', function() {
   if (y_scroll_pos >= scroll_pos_test) {
     //do stuff
     $(".menu-types a#regular").css("font-size", "1.1rem");
-    $(".menu-types a#takeout").css("font-size", "1.6rem");
+    $(".menu-types a#takeout").css("font-size", "2.5rem");
   } else {
-    $(".menu-types a#regular").css("font-size", "1.6rem");
+    $(".menu-types a#regular").css("font-size", "2.5rem");
     $(".menu-types a#takeout").css("font-size", "1.1rem");
   }
 });
@@ -26,3 +26,18 @@ $(window).on('scroll', function() {
 //     alert(scroll + " px");
 //     });
 // }); 
+
+// selected menu effect, wavcing text on selected menu
+$(window).on('scroll', function() {
+  var y_scroll_pos = window.pageYOffset;
+  var scroll_pos_test = 5630;             // scroll point of interest
+
+  if (y_scroll_pos >= scroll_pos_test) {
+    //do stuff
+    $(".menu-types a#regular").css("-webkit-animation-play-state", "paused");
+    $(".menu-types a#takeout").css("-webkit-animation-play-state", "running");
+  } else {
+    $(".menu-types a#regular").css("-webkit-animation-play-state", "running");
+    $(".menu-types a#takeout").css("-webkit-animation-play-state", "paused");
+  }
+});
