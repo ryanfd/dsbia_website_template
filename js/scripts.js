@@ -6,17 +6,10 @@ $(document).ready(function(){
 });
 
 
-// change menu selection font size based on scrollbar position
-// $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
-//   $(".menu-types a#takeout").click(function() {
-//     var scroll = $(window).scrollTop();
-//     alert(scroll + " px");
-//     });
-// });   
-
+// change menu selection font size based on scrollbar position  
 $(window).on('scroll', function() {
   var y_scroll_pos = window.pageYOffset;
-  var scroll_pos_test = 5697;             // set to whatever you want it to be
+  var scroll_pos_test = 5630;             // set to whatever you want it to be
 
   if (y_scroll_pos >= scroll_pos_test) {
     //do stuff
@@ -27,3 +20,9 @@ $(window).on('scroll', function() {
     $(".menu-types a#takeout").css("font-size", "1.1rem");
   }
 });
+// $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
+//   $(".menu-types a#takeout").click(function() {
+//     var scroll = $(window).scrollTop();
+//     alert(scroll + " px");
+//     });
+// }); 

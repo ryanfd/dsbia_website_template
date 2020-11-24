@@ -1368,6 +1368,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     font-size: 1.6rem;
 }
 
+.menu .menu-section#layer1 {
+    margin-top: 4rem;
+}
+
 
 /* overrides */
 .no-top {
