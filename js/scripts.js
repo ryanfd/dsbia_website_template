@@ -6,14 +6,24 @@ $(document).ready(function(){
 });
 
 
-// $(document).on('click', 'a[href^="#"]', function (e) { // hamburger transition on safari
-//   if (navigator.userAgent.search("Safari") >= 0) {
-//     $("input[type=checkbox]").click(function(){
-//       if($(this).prop("checked") == true) { // is checked
-//         $("#sidebarMenu").css({"-webkit-transform":"translateX(-250px)"});
-//       } else if ($(this).prop("checked") == false) { // unchecked
-//         $("#sidebarMenu").css({"-webkit-transform":"translateX(0px)"});
-//       }
+// change menu selection font size based on scrollbar position
+// $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
+//   $(".menu-types a#takeout").click(function() {
+//     var scroll = $(window).scrollTop();
+//     alert(scroll + " px");
 //     });
-//   }
-// });
+// });   
+
+$(window).on('scroll', function() {
+  var y_scroll_pos = window.pageYOffset;
+  var scroll_pos_test = 5697;             // set to whatever you want it to be
+
+  if (y_scroll_pos >= scroll_pos_test) {
+    //do stuff
+    $(".menu-types a#regular").css("font-size", "1.1rem");
+    $(".menu-types a#takeout").css("font-size", "1.6rem");
+  } else {
+    $(".menu-types a#regular").css("font-size", "1.6rem");
+    $(".menu-types a#takeout").css("font-size", "1.1rem");
+  }
+});

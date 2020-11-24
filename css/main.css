@@ -9,11 +9,15 @@
 
 html, body {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color: rgba(255,255,255,1);
     scroll-behavior: smooth;
     margin: 0;
     overflow-x: hidden;
+}
+
+html.index, body.index {
+    height: 100%;
 }
 
 .landing-page {
@@ -296,6 +300,10 @@ img.arrow {
 
 .inner-wrap {
     padding: 2rem;
+}
+
+nav.menu {
+    position: fixed;
 }
 
 nav {
@@ -1354,7 +1362,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     border-bottom-color: rgba(0,0,0,1);
     border-bottom-color: #204369;
     border-bottom-style: solid;
-    
+}
+
+.menu-types a#regular {
+    font-size: 1.6rem;
 }
 
 
