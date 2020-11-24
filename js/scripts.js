@@ -9,7 +9,7 @@ $(document).ready(function(){
 // change menu selection font size based on scrollbar position  
 $(window).on('scroll', function() {
   var y_scroll_pos = window.pageYOffset;
-  var scroll_pos_test = 5630;             // set to whatever you want it to be
+  var scroll_pos_test = 5630;             // scroll point of interest
 
   if (y_scroll_pos >= scroll_pos_test) {
     //do stuff
