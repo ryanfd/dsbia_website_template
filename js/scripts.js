@@ -52,7 +52,7 @@ $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PROD
     });
 }); 
 
-// selected menu effect, wavcing text on selected menu
+// selected menu effect, waving text on selected menu
 $(window).on('scroll', function() {
   var y_scroll_pos = window.pageYOffset;  // current position
   var scroll_pos_test = 5503;             // scroll point of interest
@@ -73,7 +73,7 @@ $(window).on('scroll', function() {
   var window_size = $(window).width(); // current width
 
   if (window_size > 1107) $(".menu-types a").css("color", "#090C0C"); // always over image
-  if (window_size <= 1107) {
+  if (window_size <= 1107 && window_size>= 1000) {
     // takeout menu link
 
     // over image
