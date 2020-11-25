@@ -5,6 +5,19 @@ $(document).ready(function(){
   });
 });
 
+// reorganize menu selection on smaller window
+$(window).resize(function() {
+  if ($(window).width() > 540) {
+    $(".menu-types").css("left", "auto");
+    $(".menu-types a#takeout").css("float", "right");
+    if (!($(".menu-types br").length)) $(".menu-types a#regular").after("<br />");
+  } else {
+    $(".menu-types").css("left", "2.5%");
+    $(".menu-types a#takeout").css("float", "left");
+    $(".menu-types br").remove();
+  }
+});
+
 
 // change menu selection font size based on scrollbar position  
 $(window).on('scroll', function() {
@@ -13,11 +26,21 @@ $(window).on('scroll', function() {
 
   if (y_scroll_pos >= scroll_pos_test) {
     //do stuff
-    $(".menu-types a#regular").css("font-size", "1.1rem");
-    $(".menu-types a#takeout").css("font-size", "2.5rem");
+    if ($(window).width() > 540) {
+      $(".menu-types a#regular").css("font-size", "1.1rem");
+      $(".menu-types a#takeout").css("font-size", "2.5rem");
+    } else {
+      $(".menu-types a#regular").css("font-size", "1.1rem");
+      $(".menu-types a#takeout").css("font-size", "1.9rem");
+    }
   } else {
-    $(".menu-types a#regular").css("font-size", "2.5rem");
-    $(".menu-types a#takeout").css("font-size", "1.1rem");
+    if ($(window).width() > 540) {
+      $(".menu-types a#regular").css("font-size", "2.5rem");
+      $(".menu-types a#takeout").css("font-size", "1.1rem");
+    } else {
+      $(".menu-types a#regular").css("font-size", "1.9rem");
+      $(".menu-types a#takeout").css("font-size", "1.1rem");
+    }
   }
 });
 $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
