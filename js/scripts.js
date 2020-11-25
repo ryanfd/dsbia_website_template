@@ -74,8 +74,6 @@ $(window).on('scroll', function() {
       $(".menu-types a#takeout").css({"color":"#FFFFFF"});
     }
 
-
-
     // regular menu link
 
     // over image
@@ -98,5 +96,8 @@ $(window).on('scroll', function() {
         (y_scroll_pos >= 8220)) { 
       $(".menu-types a#regular").css({"color":"#FFFFFF"});
     }
+  } 
+  if (window_size < 1000) { // content starts resizing divs
+    $(".menu-types a").css("color", "#090C0C");
   }
 });
