@@ -43,14 +43,14 @@ $(window).on('scroll', function() {
     }
   }
 });
-$(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
-  $("body").keyup(function(e) {
-    if (e.keyCode == 8) {
-      var scroll = $(window).scrollTop();
-      alert("POS: " + scroll + " px\n" + "WIDTH: " + $(window).width() + " px");
-    }
-    });
-}); 
+// $(document).ready(function() { // get scrollbar position [NOT USED IN FINAL PRODUCT]
+//   $("body").keyup(function(e) {
+//     if (e.keyCode == 8) {
+//       var scroll = $(window).scrollTop();
+//       alert("POS: " + scroll + " px\n" + "WIDTH: " + $(window).width() + " px");
+//     }
+//     });
+// }); 
 
 // selected menu effect, waving text on selected menu
 $(window).on('scroll', function() {
